@@ -40,3 +40,6 @@ const makeCommits = (n) => {
   });
 };
 
+// Start the process with a specified number of commits
+makeCommits(2000); // You can change this number to create more or fewer commits
+

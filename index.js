@@ -6,8 +6,8 @@ import random from "random";
 const path = "./data.json";
 
 // 🔁 New date range: 1 Jan 2022 → 1 July 2025
-const START_DATE = moment("2023-01-01");
-const END_DATE = moment("2024-12-30");
+const START_DATE = moment("2025-01-01");
+const END_DATE = moment("2025-4-30");
 
 const git = simpleGit();
 
@@ -40,5 +40,5 @@ const makeCommits = (n) => {
   });
 };
 
-makeCommits(2000); // You can change this number to create more or fewer commits
+makeCommits(3000); // You can change this number to create more or fewer commits
 
